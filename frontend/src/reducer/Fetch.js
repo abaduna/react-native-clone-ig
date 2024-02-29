@@ -1,4 +1,4 @@
-import { SEND_DATA } from "../action/Fetch";
+import { SEND_DATA, SET_ERROR } from "../action/Fetch";
 
 export const initialState = {
   loading: false,

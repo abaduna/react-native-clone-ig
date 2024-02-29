@@ -3,7 +3,7 @@ import { Text, View } from 'react-native'
 
 
 
-const sendfeed = () => {
+const SendFeed = () => {
   return (
     <View>
         <Text></Text>
@@ -11,4 +11,4 @@ const sendfeed = () => {
   )
 }
 
-export default sendfeed
+export default SendFeed

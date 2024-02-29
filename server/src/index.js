@@ -9,10 +9,10 @@ const upload = multer({
     dest: "upload/",
   });
   
-  app.use( express.static("upload"));
+app.use( express.static("upload"));
 
-app.use(morgan("dev"))
 app.use(cors())
+app.use(morgan("dev"))
 app.use(express.json())
 
 const routerPosteos = require("./router/router-posteos.js")

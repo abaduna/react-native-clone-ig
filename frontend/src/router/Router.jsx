@@ -9,12 +9,15 @@ import SendFeed from "../views/SendFeed"
 const Stack = createNativeStackNavigator()
 
 const Routes =()=>{
+    return(
         <NavigationContainer>
             <Stack.Navigator initialRouteName="Home">
                 <Stack.Screen name="Home" component={Home}/>
-                <Stack.Screen name="sendfeed" component={SendFeed}/>
+                <Stack.Screen name="SendFeed" component={SendFeed}/>
             </Stack.Navigator>
         </NavigationContainer>
+    )
+        
 }
 
 export default Routes
